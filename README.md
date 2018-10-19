@@ -6,13 +6,13 @@
 
 ## Description
 
-_A short survey to determine which Epicodus coding track could be right for you based on your learning interests. View a hosted version of this project [here] (https://www.jaredreando.github.io/track_suggester)_
+_A short survey to determine which Epicodus coding track could be right for you based on your learning interests. View a hosted version of this project [here](https://www.jaredreando.github.io/track_suggester)_
 
 ## Setup/Installation Requirements
 
 * Clone this project to your local drive: https://github.com/JaredReando/track_suggester.git
 * Open the index.html file in the browser of your choice.
-* To make changes of your own to this project, open the downloaded directory files into a developer text-editing program. I use _[Atom] (https://atom.io/)._
+* To make changes of your own to this project, open the downloaded directory files into a developer text-editing program. I use _[Atom](https://atom.io/)._
 
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
