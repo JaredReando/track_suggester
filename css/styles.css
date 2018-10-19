@@ -1,8 +1,7 @@
 body {
-  text-align: center;
   font-family: sans-serif;
 }
 
-/* .col-md-3 {
-  height: 250px;
-} */
+.container {
+  padding: 40px;
+}
