@@ -23,7 +23,7 @@ _Questions or feedback: jaredreando@gmail.com_
 
 - [ ] Code is clean, well-refactored, and easy-to-read. This includes correct indentation, spacing, and including only necessary comments and debugging tools.
 
-- [ ] Commits are made regularly with clear messages that finish the phrase "It will…".
+- [x] Commits are made regularly with clear messages that finish the phrase "It will…".
 
 - [x] Project README that includes, bare minimum:
     * Author name
@@ -36,17 +36,17 @@ _Questions or feedback: jaredreando@gmail.com_
 
 - [ ] jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
 
-- [ ] Form gathers input from the user.
+- [x] Form gathers input from the user.
 
-- [ ] Variable names are descriptive of what they represent.
+- [x] Variable names are descriptive of what they represent.
 
-- [ ] Web page is styled using Bootstrap and custom CSS.
+- [x] Web page is styled using Bootstrap and custom CSS.
 
 - [ ] The project is in a presentable, portfolio-quality state.
 
 - [ ] Required functionality is in place by the Friday deadline.
 
-- [ ] Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology.
+- [x] Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology.
 
 ### License
 

@@ -16,8 +16,11 @@ $(document).ready(function() {
   // "$(.mobile).text(mobile);" to sucessfully return a text result of the user's input on the index.html page.
 console.log(questionThree);
 
+    if (name === "") {
+      alert("Whoa there, stranger! Let's have a name, eh?");
+    }
 
-
+    $(".name").text(name);
     $(".questionFive").text(questionFive);
     $("p#hide").toggleClass();
   });
