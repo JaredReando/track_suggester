@@ -12,7 +12,7 @@ _A short survey to determine which Epicodus coding track could be right for you 
 
 * Clone this project to your local drive: https://github.com/JaredReando/track_suggester.git
 * Open the index.html file in the browser of your choice.
-* To make changes of your own to this project, open the downloaded directory files into a developer text-editing program. I use _[Atom](https://atom.io/)._
+* To make changes of your own to this project, open the downloaded directory files into a developer text-editing program. I use _[Atom](https://atom.io/)._ (It's free!)
 
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
@@ -23,14 +23,39 @@ _{Still learning how to properly nest and space content. Text and formatting loo
 
 ## Support and contact details
 
-_{Please direct all constructive criticism and frenzied praise to my personal email: jaredreando@gmail.com}_
+_Questions or feedback: jaredreando@gmail.com_
 
-## Technologies Used
+## Technologies and Objectives
 
-_{My main goal with this project was to wrap my head around <div> tags and nested rows and columns. I also experimented at length with the site's aesthetic possibilities by adjusting object opacities, image scaling, and element positioning. Custom classes to override/modify Bootstrap features were also a major part of my work on this project, as I am still plodding through the CSS and Bootstrap documentation to learn it's expanded feature set.}_
+- [ ] Code is clean, well-refactored, and easy-to-read. This includes correct indentation, spacing, and including only necessary comments and debugging tools.
+
+- [ ] Commits are made regularly with clear messages that finish the phrase "It will…".
+
+- [ ] Project README that includes, bare minimum:
+    * Author name
+    * Program name
+    * Detailed setup instructions
+    * Description
+    * Copyright and license information
+
+- [ ] Site uses branching to return the result.
+
+- [ ] jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
+
+- [ ] Form gathers input from the user.
+
+- [ ] Variable names are descriptive of what they represent.
+
+- [ ] Web page is styled using Bootstrap and custom CSS.
+
+- [ ] The project is in a presentable, portfolio-quality state.
+
+- [ ] Required functionality is in place by the Friday deadline.
+
+- [ ] Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology.
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+Copyright (c) **Jared Reando**
 
-Copyright (c) 2016 MIT License **_{Jared Reando}_**
+Licensed under the MIT License
