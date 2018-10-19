@@ -11,7 +11,7 @@
   <body>
     <div class="container">
       <h1>Which coding track is right for <br><em>you?</em></h1>
-      <p>Coding is a big wide world of options!<br>It's more than likely you'll learn more than one coding language throughout your coding journey, but figuring out where to start can be intimidating.<br>Answer this short survey to find out which track might be the best starting point for you!</p>
+      <p>Coding is a big wide world of options!<br>It's more than likely you'll learn more than one coding language throughout your coding journey at <b>Epidcodus</b>, but figuring out where to start can be intimidating.<br>Answer this short survey to find out which track might be the best starting point for you!<br>Remember, there are no wrong answers. Only boring ones.</p>
 
       <form id="survey">
 
@@ -21,79 +21,79 @@
         </div>
 
         <div class="form-group">
-          <label for="qMobile">1. What's your interest in mobile (iOS/Android) development?</label>
+          <label for="qMobile">1. What's your interest in mobile development? qMobile</label>
           <div class="radio">
             <label>
-              <input type="radio" name="qMobile" value="1">  App hound. Sign me up!
+              <input type="radio" name="qMobile" value="1">  App hound. Sign me up! (Java/Android)
             </label>
           </div>
 
           <div class="radio">
             <label>
-              <input type="radio" name="qMobile" value="2">  I can barely see the screen, gimme a PC any day.
+              <input type="radio" name="qMobile" value="2">  I can barely see the screen, gimme a PC any day. (Any besides Java/Android)
             </label
           </div>
 
           <div class="radio">
             <label>
-              <input type="radio" name="qMobile" value="3">  No preference. Will work for code.
+              <input type="radio" name="qMobile" value="3">  No preference. Will work for code. (Any)
             </label>
           </div>
         </div>
 
         <div class="form-group">
-          <label for="questionTwo">2. Answer question two please?</label>
+          <label for="qInstituion">2. Were your druthers had, what sort of work environment would you find ideal? qInstitution</label>
           <div class="radio">
             <label>
-              <input type="radio" name="questionTwo" value="twoFirst">  one
+              <input type="radio" name="qInstituion" value="1">  Small startup (garage office preferable) (Ruby/Rails)
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="questionTwo" value="twoSecond">  two
+              <input type="radio" name="qInstituion" value="2">  Mid-sized comapny. Slightly stable. Still hungry. (PHP/Drupal)
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="questionTwo" value="twoThird">  three
-            </label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="questionThree">3. Answer question three please?</label>
-          <div class="radio">
-            <label>
-              <input type="radio" name="questionThree" value="threeFirst">  one
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="questionThree" value="threeSecond">  two
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="questionThree" value="threeThird">  three
+              <input type="radio" name="qInstituion" value="3">  Enterprise juggernaught. You you have your dad's old cubicle, and slide-rules are still excitingly fresh technology. (C#/.NET)
             </label>
           </div>
         </div>
 
         <div class="form-group">
-          <label for="questionFour">4. Answer question four please?</label>
+          <label for="qStyle">3. How would you describe your artistic tendencies? qStyle</label>
           <div class="radio">
             <label>
-              <input type="radio" name="questionFour" value="fourFirst">  one
+              <input type="radio" name="qStyle" value="1">  Average. You like things to look nice, and pay the normal amount of attention to aesthetics. (Ruby/Rails)
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="questionFour" value="fourSecond">  two
+              <input type="radio" name="qStyle" value="2">  Functionalist. Your favorite color is "visible." Not that you're even paying attention. (PHP/Drupal)
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="questionFour" value="fourThird">  three
+              <input type="radio" name="qStyle" value="3">  Perfectionist. Your bookshelves are color-coded, and all your pets must be hairless. (CSS/Design)
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="qApplicaiton">4. What sort of coding application really gets your motor revving? qApplication</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="qApplication" value="1">  Dynamic, interactive applications catered to the user's experience and quick development. (Ruby)
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="qApplication" value="2">  two
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="qApplication" value="3">  three
             </label>
           </div>
         </div>
@@ -131,7 +131,15 @@
 
           <div class="col-md-12">
             <div class="well">
-              <p><span class="name font-weigth-bold text-uppercase"></span>, based on your answers, it sounds like <span class="questionFive"></span> could be a great fit for you!</p>
+              <span class="name"></span>, great news!<br></p>
+              <p id="android">Based on your interested in SEVERAL answers, Java/Android is your recommended track of choice!</p>
+              <p id="ruby">Based on your interested in SEVERAL answers, Ruby/Rails is your recommended track of choice!</p>
+              <p id="dotNet">Based on your interested in SEVERAL answers, C#/.NET is your recommended track of choice!</p>
+              <p id="css">Based on your interested in SEVERAL answers, CSS/Des is your recommended track of choice!</p>
+
+
+
+
             </div>
           </div>
       </div>

@@ -3,8 +3,8 @@ $(document).ready(function() {
     event.preventDefault();
 
     var name = $("#name").val();
-    var questionOne =  $("input:radio[name=questionOne]:checked").val();
-    var questionTwo =  $("input:radio[name=questionTwo]:checked").val();
+    var qMobile =  $("input:radio[name=qMobile]:checked").val();
+    var qInstituion =  $("input:radio[name=qInstituion]:checked").val();
     var questionThree =  $("input:radio[name=questionThree]:checked").val();
     var questionFour =  $("input:radio[name=questionFour]:checked").val();
     var questionFive =  $("input:radio[name=questionFive]:checked").val();
@@ -14,14 +14,13 @@ $(document).ready(function() {
   // Matching classes must be set on index.html in order to return variable value into an awaiting response area.
   // Example: something like '<span class="ansMobile"></span>" must exist on index.html in order for the jQuery fucntion
   // "$(.mobile).text(mobile);" to sucessfully return a text result of the user's input on the index.html page.
-console.log(questionThree);
+console.log(qMobile);
 
     if (name === "") {
       alert("Whoa there, stranger! Let's have a name, eh?");
     }
 
     $(".name").text(name);
-    $(".questionFive").text(questionFive);
     $("p#hide").toggleClass();
   });
 });
