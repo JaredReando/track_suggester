@@ -1,5 +1,5 @@
 body {
-  font-family: apercu;
+  font-family: sans-serif;
   background-color: #B8C4CC;
 }
 
@@ -9,12 +9,24 @@ body {
 }
 
 h1 {
+  border-radius: 50px;
   text-transform: uppercase;
-  line-height: 100px;
   font-size: 50px;
   text-align: center;
   padding: 40px;
   color: white;
   background-color: #38E084;
   font-weight: bold;
+}
+
+form {
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+p {
+  padding: 40px;
+  font-size: 20px;
+  line-height: 2em;
 }
