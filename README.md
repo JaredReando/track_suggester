@@ -10,16 +10,10 @@ _A short survey to determine which Epicodus coding track could be right for you 
 
 ## Setup/Installation Requirements
 
-* Clone this project to your local drive: https://github.com/JaredReando/track_suggester.git
-* Open the index.html file in the browser of your choice.
-* To make changes of your own to this project, open the downloaded directory files into a developer text-editing program. I use _[Atom](https://atom.io/)._ (It's free!)
-
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-## Known Bugs
-
-_{Still learning how to properly nest and space content. Text and formatting look a little odd, and I can't quite get the background image to scale the way I'd like with the rest of the page content. Overall, the site is embarrassingly bad in its current state. Will update further before grading on Tuesday.}_
+* Clone this project to your local drive. Link: https://github.com/JaredReando/track_suggester.git
+* Open the index.html file in the browser of your choice to view.
+* To make changes of your own to this project, open the downloaded directory files into a developer text-editing program.
+  I use _[Atom](https://atom.io/)_ (It's free!)
 
 ## Support and contact details
 
@@ -31,7 +25,7 @@ _Questions or feedback: jaredreando@gmail.com_
 
 - [ ] Commits are made regularly with clear messages that finish the phrase "It will…".
 
-- [ ] Project README that includes, bare minimum:
+- [x] Project README that includes, bare minimum:
     * Author name
     * Program name
     * Detailed setup instructions
