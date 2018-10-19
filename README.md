@@ -6,7 +6,7 @@
 
 ## Description
 
-_A short survey to determine which Epicodus coding track could be right for you based on your learning interests. View a hosted version of this project [here](https://www.jaredreando.github.io/track_suggester)_
+_A short survey to determine which Epicodus coding track could be right for you based on your learning interests. View a hosted version of this project [here](https://jaredreando.github.io/track_suggester/)_
 
 ## Setup/Installation Requirements
 

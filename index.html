@@ -10,18 +10,66 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="jumbotron">Which track is right for you?</h1>
-        </div>
-        <form id="survey">
+      <h1 class="jumbotron">Which track is right for you?</h1>
+      <form id="survey">
+        <div class="row">
+<!-- Question 1 -->
           <div class="col-md-3">
-            <div class="well">
-              <h3>Question 1</h3>
-
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2 class="panel-title large">What's your name?</h2>
+              </div>
+              <div class="panel-body">
+                <div class="form-group">
+                  <label for="nameFirst">First Name:</label>
+                  <input id="nameFirst" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="nameLast">Last Name:</label>
+                  <input id="nameLast" class="form-control" type="text">
+                </div>
+              </div>
             </div>
-
           </div>
+<!-- Question 2 -->
+          <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2 class="panel-title large">Are you interested in iOS/Android Development?</h2>
+              </div>
+              <div class="panel-body">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="mobile" value="yes">
+                    Yes, I love apps!
+                  </label>
+                  <label>
+                    <input type="radio" name="mobile" value="no">
+                    No, I prefer larger screens
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- Question 3 -->
+          <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2 class="panel-title large">What is your preferred work environment?</h2>
+              </div>
+              <div class="panel-body">
+                <select class="form-control" id="workEnvironment">
+                  <option>Home</option>
+                  <option>Corporate Office</option>
+                  <option>Shared Work Space</option>
+                  <option>Backwoods</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+
+
 
 
           <button type="submit" name="button" class="btn btn-success">Click to Submit</button>
