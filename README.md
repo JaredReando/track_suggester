@@ -1,18 +1,18 @@
-# _{Personal Web Portfolio}_
+# Track Suggestion Survey
 
-#### _{Simple portfolio web page introducing myself and my coding content to the world.}, {October 12, 2018}_
+#### _Survey web site to select an Epicodus track._
 
-#### By _**{Jared Reando}**_
+#### By _**Jared Reando**_
 
 ## Description
 
-_{A short survey to determine which coding track could be right for you based on your learning interests.}_
+_A short survey to determine which Epicodus coding track could be right for you based on your learning interests. View a hosted version of this project [here] (https://www.jaredreando.github.io/track_suggester)_
 
 ## Setup/Installation Requirements
 
 * Clone this project to your local drive: https://github.com/JaredReando/track_suggester.git
 * Open the index.html file in the browser of your choice.
-* To make changes of your own to this project, open the downloaded directory files into a developer text-editing program. I use [Atom] (https://atom.io/).
+* To make changes of your own to this project, open the downloaded directory files into a developer text-editing program. I use _[Atom] (https://atom.io/)._
 
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
