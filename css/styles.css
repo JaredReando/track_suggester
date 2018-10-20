@@ -25,7 +25,15 @@ form {
   padding-bottom: 40px;
 }
 
-#heading p { 
+#retake {
+  display: none;
+}
+
+#submitHide {
+  display: none;
+}
+
+#heading p {
   padding: 40px;
   font-size: 20px;
   line-height: 2em;

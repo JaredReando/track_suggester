@@ -30,13 +30,13 @@
 
           <div class="radio">
             <label>
-              <input type="radio" name="qMobile" value="2">  I can barely see the screen, gimme a PC any day. (Any besides Java/Android)
+              <input type="radio" name="qMobile" value="2">  I can barely see the screen, gimme a PC any day. (.net)
             </label
           </div>
 
           <div class="radio">
             <label>
-              <input type="radio" name="qMobile" value="3">  No preference. Will work for code. (Any)
+              <input type="radio" name="qMobile" value="3">  No preference. Will work for code. (ruby)
             </label>
           </div>
         </div>
@@ -50,7 +50,7 @@
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="qInstituion" value="2">  Mid-sized comapny. Slightly stable. Still hungry. (PHP/Drupal)
+              <input type="radio" name="qInstituion" value="2">  Mid-sized comapny. Slightly stable. Still hungry. (Java/Android)
             </label>
           </div>
           <div class="radio">
@@ -69,7 +69,7 @@
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="qStyle" value="2">  Functionalist. Your favorite color is "visible." Not that you're even paying attention. (PHP/Drupal)
+              <input type="radio" name="qStyle" value="2">  Functionalist. Your favorite color is "visible." Not that you're even paying attention. (.net)
             </label>
           </div>
           <div class="radio">
@@ -102,17 +102,17 @@
           <label for="qStability">5. How important is job transferability to you?</label>
           <div class="radio">
             <label>
-              <input type="radio" name="qStability" value="1">  Very important. I like to keep my options open, and personal interest takes a backseat to professional marketability. (.NET/Java)
+              <input type="radio" name="qStability" value="1">  Very important. I like to keep my options open, and personal interest takes a backseat to professional marketability. (.net)
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="qStability" value="2">  Somewhat important.
+              <input type="radio" name="qStability" value="2">  Somewhat important. (java/android)
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="qStability" value="3">  Not important. I'm interested in the newest, the shiniest, and the coolest. I'll work in a one horse town so long as my paid-only-in-snacks office has a bean bag chair.
+              <input type="radio" name="qStability" value="3">  Not important. I'm interested in the newest, the shiniest, and the coolest. I'll work in a one horse town so long as my paid-only-in-snacks office has a bean bag chair. (ruby)
             </label>
           </div>
         </div>
@@ -122,16 +122,22 @@
 
 
 
-            <div>
+            <div id="submitHide">
               <label>
                 <button type="submit" name="button" class="btn btn-success">Click to Submit</button>
               </label>
             </div>
+            <div id="retake">
+              <label>
+                <a href="index.html" role="button" class="btn btn-success">Retake the Survey!</a>
+              </label>
+            </div>
+
         </form>
 
           <div class="col-md-12">
             <div class="well">
-              <span class="name"></span>, great news!<br></p>
+              <!-- <p><span class="name">, great news!</span><br></p> -->
               <p id="android">Based on your interested in SEVERAL answers, Java/Android is your recommended track of choice!</p>
               <p id="ruby">Based on your interested in SEVERAL answers, Ruby/Rails is your recommended track of choice!</p>
               <p id="dotNet">Based on your interested in SEVERAL answers, C#/.NET is your recommended track of choice!</p>

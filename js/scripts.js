@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $("#submitHide").show();
   $("#survey").submit(function(event) {
     event.preventDefault();
 
@@ -19,16 +20,25 @@ $(document).ready(function() {
 
     if (name === "") {
       alert("Whoa there, stranger! Let's have a name, eh?");
-    } else if (qMobile === "1" && qApplication === "2") {
+    } else if (qMobile === "1" && qInstituion === "2") {
       $("#android").show();
-    } else if 
-
-
-    (qInstituion === "3" && qMobile != "1") {
+    } else if (qMobile === "2" && qInstituion === "3") {
       $("#dotNet").show();
+    } else if (qMobile === "3" && qInstituion === "1") {
+      $("#ruby").show();
+    } else if (qStyle === "1" && qApplication === "1") {
+      $("#ruby").show();
+    // }
+    //
+    //
+    // (qInstituion === "3" && qMobile != "1") {
+    //   $("#dotNet").show();
     } else {
       $("#copOut").show();
     }
+
+    $("#submitHide").hide();
+    $("#retake").show();
 
   });
 });
