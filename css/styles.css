@@ -4,8 +4,14 @@ body {
 }
 
 .container {
-  padding: 40px;
+  padding: 50px;
   background-color: white;
+}
+
+.heading {
+  padding: 40px;
+  font-size: 20px;
+  line-height: 1.5em;
 }
 
 h1 {
@@ -33,11 +39,6 @@ form {
   display: none;
 }
 
-#heading p {
-  padding: 40px;
-  font-size: 20px;
-  line-height: 2em;
-}
 
 #android {
   display: none;
@@ -57,4 +58,8 @@ form {
 
 #copOut {
   display: none;
+}
+
+.well {
+  margin-top: 30px;
 }
