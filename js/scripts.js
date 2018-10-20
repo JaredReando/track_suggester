@@ -14,18 +14,17 @@ $(document).ready(function() {
   // Matching classes must be set on index.html in order to return variable value into an awaiting response area.
   // Example: something like '<span class="ansMobile"></span>" must exist on index.html in order for the jQuery fucntion
   // "$(.mobile).text(mobile);" to sucessfully return a text result of the user's input on the index.html page.
-console.log(qMobile);
-console.log(qApplication);
 
     $(".name").text(name);
 
     if (name === "") {
       alert("Whoa there, stranger! Let's have a name, eh?");
-    } else if (qMobile || qInstituion === "undefined") {
-      alert("Looks like you missed a question!");
     } else if (qMobile === "1" && qApplication === "2") {
       $("#android").show();
-    } else if (qInstituion === "3" && qMobile != "1") {
+    } else if 
+
+
+    (qInstituion === "3" && qMobile != "1") {
       $("#dotNet").show();
     } else {
       $("#copOut").show();
