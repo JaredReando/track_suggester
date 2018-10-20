@@ -40,7 +40,7 @@ form {
 }
 
 
-#android {
+#java {
   display: none;
 }
 
@@ -48,7 +48,7 @@ form {
   display: none;
 }
 
-#dotNet {
+#net {
   display: none;
 }
 
