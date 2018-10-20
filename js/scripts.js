@@ -28,17 +28,15 @@ $(document).ready(function() {
       $("#ruby").show();
     } else if (qStyle === "1" && qApplication === "1") {
       $("#ruby").show();
-    // }
-    //
-    //
-    // (qInstituion === "3" && qMobile != "1") {
-    //   $("#dotNet").show();
+    } else if (qStyle === "3" && qApplication === "3") {
+      $("#css").show();
     } else {
       $("#copOut").show();
     }
 
-    $("#submitHide").hide();
-    $("#retake").show();
-
+    if (name != "") {
+      $("#submitHide").hide();
+      $("#retake").show();
+    }
   });
 });

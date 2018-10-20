@@ -21,7 +21,7 @@ _Questions or feedback: jaredreando@gmail.com_
 
 ## Technologies and Objectives
 
-- [ ] Code is clean, well-refactored, and easy-to-read. This includes correct indentation, spacing, and including only necessary comments and debugging tools.
+- [x] Code is clean, well-refactored, and easy-to-read. This includes correct indentation, spacing, and including only necessary comments and debugging tools.
 
 - [x] Commits are made regularly with clear messages that finish the phrase "It will…".
 
@@ -32,9 +32,9 @@ _Questions or feedback: jaredreando@gmail.com_
     * Description
     * Copyright and license information
 
-- [ ] Site uses branching to return the result.
+- [x] Site uses branching to return the result.
 
-- [ ] jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
+- [x] jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
 
 - [x] Form gathers input from the user.
 
@@ -42,9 +42,9 @@ _Questions or feedback: jaredreando@gmail.com_
 
 - [x] Web page is styled using Bootstrap and custom CSS.
 
-- [ ] The project is in a presentable, portfolio-quality state.
+- [x] The project is in a presentable, portfolio-quality state.
 
-- [ ] Required functionality is in place by the Friday deadline.
+- [x] Required functionality is in place by the Friday deadline.
 
 - [x] Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology.
 
