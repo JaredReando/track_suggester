@@ -8,10 +8,23 @@ body {
   background-color: white;
 }
 
+.enlarge {
+  font-size: 1.3em;
+}
+
 .heading {
   padding: 40px;
   font-size: 20px;
   line-height: 1.5em;
+}
+
+p {
+  text-align: left:
+  padding: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 1.5em;
+  font-size: 2em;
 }
 
 h1 {
@@ -26,12 +39,13 @@ h1 {
 }
 
 form {
-  padding-left: 50px;
-  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
   padding-bottom: 40px;
 }
 
-#retake {
+.retake {
   display: none;
 }
 
@@ -62,4 +76,5 @@ form {
 
 .well {
   margin-top: 30px;
+  padding: 40px;
 }
