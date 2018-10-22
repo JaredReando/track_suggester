@@ -120,23 +120,12 @@ $(document).ready(function() {
       alert("Please answer question 9");
     }
 
-
-console.log(resultRuby);
-console.log(resultJava);
-
-
-    if (resultRuby > resultJava) {
-      if (resultRuby > resultNet) {
+    if (resultRuby > (resultJava && resultNet)) {
         $("#ruby").show();
-      }
-    } else if (resultJava > resultRuby) {
-      if (resultJava > resultNet) {
+    } else if (resultJava > (resultRuby && resultNet)) {
         $("#java").show();
-      }
-    } else if (resultNet > resultRuby) {
-      if (resultNet > resultJava) {
+    } else if (resultNet > (resultRuby && resultJava)) {
         $("#net").show();
-      }
     } else {
       $("#copOut").show();
     }
